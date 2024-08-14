@@ -1,0 +1,93 @@
+/* code by Mritunjay Singh */
+/* for CodSoft  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(135, 101, 37) ;
+    color: white;
+    /* padding-top: 50px; */
+    text-align: center;
+    font-size: 30px;
+}
+h1{
+    margin-top: 50px;
+    color: white;
+}
+#calc {
+    margin-top: 50px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+#content {
+    background: #272523;
+    border: 6px white solid;
+    border-radius: 20px;
+    height: 452px;
+    width: 251px;
+
+}
+#content form input {
+    width: 50px;
+    height: 163px;
+    border:0;
+    font-size: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+    cursor: pointer;
+    background-color: #1a1918;
+    
+}
+
+form #output {
+    display: flex;
+    justify-content: flex-end;
+}
+form #output input {
+    text-align: right;
+    flex: 1;
+    font-size: 40px;
+}
+
+
+#res{
+    height: 100px;
+}
+
+button{
+    border: 0;
+    outline: 0;
+    width: 59px;
+    height: 55px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(33, 30, 27);
+    cursor: pointer;
+}
+
+.colored-button{
+    background-color: orange;
+}
+
+.btn{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-gap:1px;
+}
+
+#left-corner-button{
+    border-bottom-left-radius: 20px;
+}
+#right-corner-button{
+    border-bottom-right-radius: 13px;
+}

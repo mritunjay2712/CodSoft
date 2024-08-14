@@ -1,0 +1,55 @@
+<!-- code by Mritunjay Singh-->
+<!--for CodSoft -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Calculator</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <h1>CALCULATOR</h1>
+   <div id="calc">
+      <div id="content">
+         <form>
+            <div id="output">
+               <input type="text" id='res'>
+            </div>
+            <div class="btn">
+               <button type="button" value='C' onclick="Clear()" id="clear">AC</button>
+               <button type="button"  value='/' onclick="Solve('/')">/</button>
+               <button type="button" value='x' onclick="Solve('*')">*</button>
+               <button type="button"  class="colored-button" value='00' onclick="Solve('00')">00</button>
+
+               
+               
+               <button type="button" value='7' onclick="Solve('7')">7</button>
+               <button type="button" value='8' onclick="Solve('8')">8</button>
+               <button type="button" value='9' onclick="Solve('9')">9</button>
+               <button type="button" class="colored-button" value='-' onclick="Solve('-')">-</button>
+
+               
+               <button type="button" value='4' onclick="Solve('4')">4</button>
+               <button type="button" value='5' onclick="Solve('5')">5</button>
+               <button type="button" value='6' onclick="Solve('6')">6</button>
+               <button type="button" class="colored-button" value='+' onclick="Solve('+')">+</button>
+
+
+               <button type="button" value='1' onclick="Solve('1')">1</button>
+               <button type="button" value='2' onclick="Solve('2')">2</button>
+               <button type="button" value='3' onclick="Solve('3')">3</button>
+               <button type="button"  class="colored-button" value='←' onclick="Back()" id="backspace">←</button>
+
+               
+               <button type="button" id="left-corner-button"  value='.' onclick="Solve('.')">.</button>
+               <button type="button" value='0' onclick="Solve('0')">0</button>
+               <button type="button" value='%' onclick="Solve('%')">%</button>
+               <button type="button" id="right-corner-button" class="colored-button corner-button" value='=' onclick="Result()">=</button>
+            </div>
+         </form>
+      </div>
+   </div>
+   <script src='script.js'></script>
+</body>
+</html>
